@@ -1,0 +1,245 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Entropia</title>
+
+    <link rel="stylesheet" href="{% static 'dist/css/bootstrap.min.css'%}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'dist/css/grayscale.css' %}" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}" />
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+          <!-- <a class="navbar-brand" href="#page-top"> <span class="light">Cooperation proposal</span> </a> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#whyus">Why us</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#references">References</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#clients">Clients</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#team">Team</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <section id="page-top" class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="brand-heading">Entropia</h1>
+              <p class="intro-text">
+                Peta vymysli
+              </p>
+              <div class="page-scroll">
+                <a href="#whyus" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="whyus" class="container content-section text-center team">
+      <div class="container">
+	      <div class="row">
+	        <div class="col-lg-8 col-lg-offset-2 cell">
+	          <h2>Why us?</h2>
+	          <p>
+	            Sme super 
+	          </p>
+	        </div>
+        </div>
+	      <div class="row">
+	        <div class="col-sm-6 col-md-4 cell">
+	          <p>
+	            Quality 
+	          </p>
+	        </div>
+	        <div class="col-sm-6 col-md-4 cell">
+	          <p>
+	            Inovations
+	          </p>
+	        </div>
+	        <div class="col-sm-6 col-md-4 cell">
+	          <p>
+	            User experience
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+    <section id="references" class="content-section text-center">
+      <div class="download-section">
+        <div class="container">
+          <div class="row">
+          	<div class="col-lg-8 col-lg-offset-2">
+	            <h2>References</h2>
+          	</div>
+        	</div>
+        	<div class="row">
+	          <div class="col-sm-6">
+	            <h3>GuestCloud</h3>
+	            <p>
+	              obrazok
+	            </p>
+	          </div>
+	          <div class="col-sm-6">
+	            <h3>GuestFlow</h3>
+	            <p>
+	              obrazok
+	            </p>
+	          </div>
+					</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="content-section text-center">
+      <div class="container">
+      	<div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Clients</h2>
+            <p>
+              We have the best clients
+            </p>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-sm-3 col-sm-offset-2">
+            HTC
+          </div>
+          <div class="col-sm-3">
+            Union
+          </div>
+          <div class="col-sm-3">
+            Brand
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="team" class="content-section text-center">
+      <div class="container agreement">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 cell">
+            <h2>Team</h2>
+            <p>
+              Our company provides a deep expertise in the field of web applications development with an emphasis on an attractive visual design and user-friendly interface. Creativity of our design team is strengthened by excellent technical skills of our developers.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 cell">
+            <div class="img-circular" style="background-image:url({% static 'home/img/kubek.png' %});"></div>
+            <p>
+              Vojtech Kubek
+              <br>
+              Designer
+            </p>
+
+          </div>
+          <div class="col-sm-6 col-md-4 cell">
+            <div class="img-circular" style="background-image:url({% static 'home/img/kajan.jpg' %});"></div>
+            <p>
+              Peter Kajan
+              <br>
+              Technical lead
+            </p>
+
+          </div>
+          <div class="col-sm-6 col-md-4 cell">
+            <div class="img-circular" style="background-image:url({% static 'home/img/kociova.jpg' %});"></div>
+            <p>
+              Michaela Kočiová
+              <br>
+              UX/UI Analyst
+            </p>
+
+          </div>
+          <div class="col-sm-6 col-md-4 cell">
+            <div class="img-circular" style="background-image:url({% static 'home/img/uhercik.jpg' %});"></div>
+            <p>
+              Tomáš Uherčík
+              <br>
+              Web developer
+            </p>
+
+          </div>
+          <div class="col-sm-6 col-md-4 cell">
+            <div class="img-circular" style="background-image:url({% static 'home/img/kompanek.jpg' %});"></div>
+            <p>
+              Matej Kompánek
+              <br>
+              Web developer
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 cell">
+            <div class="img-circular" style="background-image:url({% static 'home/img/palesova.jpg' %});"></div>
+            <p>
+              Petra Pálešová
+              <br>
+              Brand manager
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 cell">
+            <h2>Contact</h2>
+            <p>
+              Nas kontakt
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="{% static 'dist/js/bootstrap.min.js' %}"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{% static 'dist/js/grayscale.js' %}"></script>
+  </body>
+</html>
