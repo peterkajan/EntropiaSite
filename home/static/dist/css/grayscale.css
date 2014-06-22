@@ -1,9 +1,10 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Courgette', cursive,Helvetica,Arial,sans-serif;
-    color: #5B2B45;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
     background-color: #fff;
+    font-weight:100;
 }
 
 html {
@@ -19,9 +20,10 @@ h5,
 h6 {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    font-family: 'Courgette', cursive,Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 900;*/
     letter-spacing: 1px;
+    font-weight: 100px;
 }
 
 p {
@@ -51,6 +53,71 @@ a:focus {
     color: #176e61;
 }
 
+/* Custom styles Vojto */    
+
+.bottom_zero {
+    text-align:center;   
+}
+
+
+.margin_top100{
+    margin-top:100px;
+}
+
+.margin_top50{
+    margin-top:50px;
+}
+
+.font-hover:hover {
+    color: lightgreen;
+}
+
+.fw100{
+    font-weight: 100;
+}
+.white{
+    color: #fff;
+}
+
+.icon-h-large:hover {
+    color: lightgreen;
+    font-size: 55px;
+}
+
+.icon-h-large{
+   -webkit-transition: font-size 0.4s, color 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 0.4s, color 0.4s;
+}
+
+.anim_fadeout{
+    -webkit-animation: fade 1s; /* Chrome, Safari, Opera */
+    animation: fade 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.anim_fadein{
+    -webkit-animation: fade 1s; /* Chrome, Safari, Opera */
+    animation: fade 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fade {
+    0% {color: rgba(0,0,0,1);}
+    50% {color: rgba(0,0,0,0);}
+    100% {color: rgba(0,0,0,1);}
+}
+
+/* Standard syntax */
+@keyframes fade {
+    0% {color: rgba(0,0,0,1);}
+    50% {color: rgba(0,0,0,0);}
+    100% {color: rgba(0,0,0,1);}
+}
 
 
 .img-circular{
@@ -66,19 +133,20 @@ a:focus {
 
 
 .light {
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: 'Courgette', cursive,Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #fff;
+    font-weight: 400;
 }
 
 .navbar-brand {
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .navbar-brand:focus {
@@ -86,7 +154,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #5B2B45;
+    color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -105,7 +173,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-toggle:focus,
@@ -113,7 +181,7 @@ a:focus {
     outline: 0;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -127,11 +195,17 @@ a:focus {
     .top-nav-collapse {
         padding: 0;
         background-color: #fff;
+        
     }
 
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
+        
     }
+    
+    .navbar-custom.top-nav-collapse a {
+        color: black;
+    } 
 }
 
 .intro {
@@ -141,13 +215,64 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/bokeh.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/bokeh.jpg) no-repeat bottom center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-weight: 100;
 }
+
+.solution {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    /*background: url(../img/bokeh.jpg) no-repeat bottom center scroll;*/
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-weight: 100;
+}
+
+.references {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    /*background: url(../img/bokeh.jpg) no-repeat bottom center scroll;*/
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-weight: 100;
+}
+
+.contact {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    /*background: url(../img/bokeh.jpg) no-repeat bottom center scroll;*/
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-weight: 100;
+}
+
+
 
 .intro-body {
     display: table-cell;
@@ -156,26 +281,44 @@ a:focus {
 
 .brand-heading {
     font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.contact-heading {
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
 }
 
 .intro-text {
     font-size: 18px;
 }
 
+@media(max-width:767px) {
+    .navbar-nav>li>a 
+    {
+       color: #000;
+    }
+}
+
 @media(min-width:767px) {
-    .intro {
+    .intro, .solution, .references, .contact 
+    {
         height: 100%;
         padding: 0;
     }
 
     .brand-heading {
         font-size: 70px;
+        font-weight: 100;
     }
 
     .intro-text {
         font-size: 25px;
     }
 }
+
 
 .btn-circle {
     width: 70px;
@@ -259,7 +402,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/bokeh.jpg) no-repeat center center scroll;
+    /*background: url(../img/bokeh.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -290,8 +433,8 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: 'Courgette', cursive,Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 400;*/
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -367,8 +510,8 @@ body {
 }
 
 .team img {
-	width: 200px;
-	height: 200px;
+	width: auto;
+	height: 150px;
 }
 
 .team .cell {
