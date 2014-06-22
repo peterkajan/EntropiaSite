@@ -41,7 +41,7 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    color: #000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -50,13 +50,15 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #28c3ab;
 }
 
 /* Custom styles Vojto */    
 
 .bottom_zero {
     text-align:center;   
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -80,7 +82,7 @@ a:focus {
 }
 
 .icon-h-large:hover {
-    color: lightgreen;
+    color: #28c3ab;
     font-size: 55px;
 }
 
