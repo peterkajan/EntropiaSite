@@ -13,11 +13,11 @@
 
     <!-- Custom styles for this template -->
     <link href="{% static 'dist/css/grayscale.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'home/css/styles.css' %}" />
 
     <!-- Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,100,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{% static 'home/css/style.css' %}" />
   </head>
 
   <body>
@@ -28,7 +28,6 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
             <i class="fa fa-bars"></i>
           </button>
-          <!-- <a class="navbar-brand" href="#page-top"> <span class="light">Cooperation proposal</span> </a> -->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,17 +38,11 @@
               <a href="#page-top"></a>
             </li>
             <li class="page-scroll">
-              <a href="#whyus">The solution</a>
+              <a href="#solution">The solution</a>
             </li>
             <li class="page-scroll">
               <a href="#references">Our work</a>
             </li>
-            <!-- <li class="page-scroll">
-              <a href="#clients">Clients</a>
-            </li>
-  -->           <!-- <li class="page-scroll">
-              <a href="#team">Team</a>
-            </li> -->
             <li class="page-scroll">
               <a href="#contact">Contact</a>
             </li>
@@ -61,7 +54,7 @@
     </nav>
 
     <section id="page-top" class="intro">
-      <div class="intro-body">
+      <div class="section-body">
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -73,7 +66,7 @@
                 Anything you do not except
               </p>
               <div class="page-scroll">
-                <a href="#whyus" class="btn btn-circle"> <i class="fa fa-angle-down animated"></i> </a>
+                <a href="#solution" class="btn btn-circle"> <i class="fa fa-angle-down animated"></i> </a>
               </div>
             </div>
           </div>
@@ -81,125 +74,118 @@
       </div>
     </section>
 
-    <section id="whyus" class="solution">
-      <div class="intro-body">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 cell">
-            <h2><i class="fa fa-bolt"></i> THE SOLUTION <i class="fa fa-bolt"></i></h2>
-            <br>
-            <!-- <span class="fa-stack fa-lg fa-4x">  -->
-              <i class="fa fa-cloud fa-5x"></i> 
-              <!-- <i class="fa fa-cog fa-spin fa-stack-1x white"></i> 
-            </span> -->
-            <br>
-
-            <span class="fa-stack fa-lg fa-3x"> 
-              <i class="fa fa-tablet fa-3x fa-stack-2x"></i> 
-              <i class="fa fa-info fa-stack-1x anim_fadein"></i> 
-            </span>
-
-            <i class="fa fa-exchange fa-4x"></i>
-
-            <span class="fa-stack fa-lg fa-3x"> 
-              <i class="fa fa-tablet fa-stack-2x"></i> 
-              <i class="fa fa-info fa-stack-1x anim_fadeout"></i> 
-            </span>
-            <p>
-              We are developing awsome solutions where <b>data synchronization</b> plays a big role.
+    <section id="solution" class="solution">
+      <div class="section-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 cell">
+              <h2 class="main-heading"><i class="fa fa-bolt"></i> THE SOLUTION <i class="fa fa-bolt"></i></h2>
               <br>
-              We are experts in creating fully custom <b>multi-platform applications</b> in which the data are traveling nearly at the speed of ligth between <b>all the devices</b>.
+              <i class="fa fa-cloud fa-5x"></i>
               <br>
-              The <b>end customers</b> are always in our minds from the very first <b>line of code</b>. 
-            </p>
-          </div>
-        </div>
-        
-        <div class="row margin_top100">
-          
-          
-          <div class="col-sm-6 col-md-4 cell">
-          <div class="bottom_zero">
-            <p>
-              Our products do not care about
-            <br>
-            <i class="fa fa-mobile icon-h-large fa-3x"></i>
-            <i class="fa fa-tablet icon-h-large fa-3x"></i>
-            <i class="fa fa-laptop icon-h-large fa-3x"></i>
-            <i class="fa fa-desktop icon-h-large fa-3x"></i>
-            <br>
-              the device they are running on.
-            </p>
-           </div>
+
+              <span class="fa-stack fa-lg fa-3x"> <i class="fa fa-tablet fa-3x fa-stack-2x"></i> <i class="fa fa-info fa-stack-1x anim_fadein"></i> </span>
+
+              <i class="fa fa-exchange fa-4x"></i>
+
+              <span class="fa-stack fa-lg fa-3x"> <i class="fa fa-tablet fa-stack-2x"></i> <i class="fa fa-info fa-stack-1x anim_fadeout"></i> </span>
+              <p>
+                We are developing awsome solutions where <b>data synchronization</b> plays a big role.
+                <br>
+                We are experts in creating fully custom <b>multi-platform applications</b> in which the data are traveling nearly at the speed of ligth between <b>all the devices</b>.
+                <br>
+                The <b>end customers</b> are always in our minds from the very first <b>line of code</b>.
+              </p>
+            </div>
           </div>
 
-          <div class="col-sm-6 col-md-4 cell">
-          <div class="bottom_zero">
-            <p>
-              Forget about the legacy software
-            <br>
-            <i class="fa fa-lightbulb-o icon-h-large fa-3x"></i>
-            &nbsp
-            <i class="fa fa-terminal icon-h-large fa-3x"></i>
-            &nbsp
-             <i class="fa fa-magic icon-h-large fa-3x"></i>
-            &nbsp
-            <i class="fa fa-cloud icon-h-large fa-3x"></i>
-            <br>
-             our solutions are innovative.
-            </p>
-          </div>
-          </div>
+          <div class="row margin_top100">
+            <div class="col-sm-6 col-md-4 cell">
+              <p>
+                Our products do not care about
+              </p>
+              <p class="images">
+                <i class="fa fa-mobile icon-h-large fa-3x"></i>
+                <i class="fa fa-tablet icon-h-large fa-3x"></i>
+                <i class="fa fa-laptop icon-h-large fa-3x"></i>
+                <i class="fa fa-desktop icon-h-large fa-3x"></i>
+              </p>
+              <p>
+                the device they are running on.
+              </p>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 cell">
+              <p>
+                Forget about the legacy software
+              </p>
+              <p class="images">
+                <i class="fa fa-lightbulb-o icon-h-large fa-3x"></i>
+                &nbsp
+                <i class="fa fa-terminal icon-h-large fa-3x"></i>
+                &nbsp
+                <i class="fa fa-magic icon-h-large fa-3x"></i>
+                &nbsp
+                <i class="fa fa-cloud icon-h-large fa-3x"></i>
+              </p>
+              <p>
+                our solutions are innovative.
+              </p>
+            </div>
 
-          <div class="col-sm-6 col-md-4 cell">
-          <div class="bottom_zero">
-            <p>
-             What we really do care of is  
-             <br>
-            <i class="fa fa-user icon-h-large fa-1x"></i>
-            <i class="fa fa-user icon-h-large fa-2x"></i>
-            <i class="fa fa-user icon-h-large fa-3x"></i>
-            <i class="fa fa-user icon-h-large fa-2x"></i>
-            <i class="fa fa-user icon-h-large fa-1x"></i>
-            <br>
-              user experience.
-            </p>
-          </div>
+            <div class="col-sm-6 col-md-4 cell">
+              <p>
+                What we really do care of is
+              </p>
+              <p class="images">
+                <i class="fa fa-user icon-h-large fa-1x"></i>
+                <i class="fa fa-user icon-h-large fa-2x"></i>
+                <i class="fa fa-user icon-h-large fa-3x"></i>
+                <i class="fa fa-user icon-h-large fa-2x"></i>
+                <i class="fa fa-user icon-h-large fa-1x"></i>
+              </p>
+              <p>
+                user experience.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="references" class="references">
-      <div class="intro-body">
+      <div class="section-body">
         <div class="container">
           <div class="row">
-          	<div class="col-lg-8 col-lg-offset-2">
-	            <h2> <i class="fa fa-quote-left"></i> OUR WORK <i class="fa fa-quote-right"></i></h2>
-          	</div>
-        	</div>
-        	<div class="row">
-	          <div class="col-sm-6">
-	            
-	              <img src="{% static 'home/img/GClogo2.png' %}" alt="Entropia Logo" height="100px" width="auto">
-	              
-    	          <h2 class="contact-heading">GuestCloud</h2>
-    	          <p>
-    	            Complete guest management system <br> for event planners
-    	          </p>
-	           
-	          </div>
-	          
-	          <div class="col-sm-6">
-	           
-	              <img src="{% static 'home/img/GFlogo.png' %}" alt="Entropia Logo" height="100px" width="auto">
-	              
-	              <h2 class="contact-heading">GuestFlow</h2>
-	               <p>
-                   Guest check-in app for tablets
-                 </p>
-	         
-	          </div>
-					</div>
+            <div class="col-lg-8 col-lg-offset-2">
+              <h2><i class="fa fa-quote-left"></i> OUR WORK <i class="fa fa-quote-right"></i></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+
+              <img src="{% static 'home/img/GClogo2.png' %}" alt="Entropia Logo" height="100px" width="auto">
+
+              <h2 class="contact-heading">GuestCloud</h2>
+              <p>
+                Complete guest management system
+                <br>
+                for event planners
+              </p>
+
+            </div>
+
+            <div class="col-sm-6">
+
+              <img src="{% static 'home/img/GFlogo.png' %}" alt="Entropia Logo" height="100px" width="auto">
+
+              <h2 class="contact-heading">GuestFlow</h2>
+              <p>
+                Guest check-in app for tablets
+              </p>
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -227,73 +213,9 @@
         </div>
       </div>
     </section> -->    
-    <!-- <section id="team" class="content-section text-center">
-      <div class="container agreement">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 cell">
-            <h2>Team</h2>
-            <p>
-              Our company provides a deep expertise in the field of web applications development with an emphasis on an attractive visual design and user-friendly interface. Creativity of our design team is strengthened by excellent technical skills of our developers.
-            </p>
-          </div>
-          <div class="col-sm-6 col-md-4 cell">
-            <div class="img-circular" style="background-image:url({% static 'home/img/kubek.png' %});"></div>
-            <p>
-              Vojtech Kubek
-              <br>
-              Designer
-            </p>
-
-          </div>
-          <div class="col-sm-6 col-md-4 cell">
-            <div class="img-circular" style="background-image:url({% static 'home/img/kajan.jpg' %});"></div>
-            <p>
-              Peter Kajan
-              <br>
-              Technical lead
-            </p>
-
-          </div>
-          <div class="col-sm-6 col-md-4 cell">
-            <div class="img-circular" style="background-image:url({% static 'home/img/kociova.jpg' %});"></div>
-            <p>
-              Michaela Kočiová
-              <br>
-              UX/UI Analyst
-            </p>
-
-          </div>
-          <div class="col-sm-6 col-md-4 cell">
-            <div class="img-circular" style="background-image:url({% static 'home/img/uhercik.jpg' %});"></div>
-            <p>
-              Tomáš Uherčík
-              <br>
-              Web developer
-            </p>
-
-          </div>
-          <div class="col-sm-6 col-md-4 cell">
-            <div class="img-circular" style="background-image:url({% static 'home/img/kompanek.jpg' %});"></div>
-            <p>
-              Matej Kompánek
-              <br>
-              Web developer
-            </p>
-          </div>
-          <div class="col-sm-6 col-md-4 cell">
-            <div class="img-circular" style="background-image:url({% static 'home/img/palesova.jpg' %});"></div>
-            <p>
-              Petra Pálešová
-              <br>
-              Brand manager
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    
+        
     <section id="contact" class="contact">
-      <div class="intro-body">
+      <div class="section-body">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 cell">
             <h2><i class="fa fa-phone"></i> CONTACT <i class="fa fa-envelope-o"></i></h2>

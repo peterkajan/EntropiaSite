@@ -53,91 +53,6 @@ a:focus {
     color: #28c3ab;
 }
 
-/* Custom styles Vojto */    
-
-.bottom_zero {
-    text-align:center;   
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-.margin_top100{
-    margin-top:100px;
-}
-
-.margin_top50{
-    margin-top:50px;
-}
-
-.font-hover:hover {
-    color: lightgreen;
-}
-
-.fw100{
-    font-weight: 100;
-}
-.white{
-    color: #fff;
-}
-
-.icon-h-large:hover {
-    color: #28c3ab;
-    font-size: 55px;
-}
-
-.icon-h-large{
-   -webkit-transition: font-size 0.4s, color 0.4s; /* For Safari 3.1 to 6.0 */
-    transition: font-size 0.4s, color 0.4s;
-}
-
-.anim_fadeout{
-    -webkit-animation: fade 1s; /* Chrome, Safari, Opera */
-    animation: fade 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;
-}
-
-.anim_fadein{
-    -webkit-animation: fade 1s; /* Chrome, Safari, Opera */
-    animation: fade 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes fade {
-    0% {color: rgba(0,0,0,1);}
-    50% {color: rgba(0,0,0,0);}
-    100% {color: rgba(0,0,0,1);}
-}
-
-/* Standard syntax */
-@keyframes fade {
-    0% {color: rgba(0,0,0,1);}
-    50% {color: rgba(0,0,0,0);}
-    100% {color: rgba(0,0,0,1);}
-}
-
-
-.img-circular{
- width: 200px;
- height: 200px;
- background-size: cover;
- display: block;
-  border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-}
-
-
-
-.light {
-    font-weight: 100;
-}
-
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -209,7 +124,6 @@ a:focus {
         color: black;
     } 
 }
-
 .intro {
     display: table;
     width: 100%;
@@ -276,7 +190,7 @@ a:focus {
 
 
 
-.intro-body {
+.section-body {
     display: table-cell;
     vertical-align: middle;
 }
@@ -505,22 +419,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-.logo {
-	width: 200px;
-}
-
-.team img {
-	width: auto;
-	height: 150px;
-}
-
-.team .cell {
-	height: 300px;
-}
-
-.agreement {
-	padding-top: 70px;
-	padding-bottom: 300px;
 }
