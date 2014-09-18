@@ -1,4 +1,7 @@
-/* custom styles*/    
+/* custom styles*/
+h3 {
+	text-decoration: underline;
+}    
 .bottom_zero {
     text-align:center;   
     padding-left: 10px;
@@ -24,6 +27,11 @@
 .icon-h-large:hover {
     color: #28c3ab;
     font-size: 55px;
+}
+
+.multiplat .icon-h-large:hover {
+    color: #28c3ab;
+    font-size: 75px;
 }
 
 .icon-h-large{
@@ -69,6 +77,27 @@
     width: 200px;
 }
 
+/*navigation*/
+.navbar {
+	border-bottom: 1px solid #FFF;
+}
+	
+	.navbar.top-nav-collapse {
+		border-color: rgba(0,0,0,0.5);
+	}
+
+/*intro*/
+.intro{
+	min-height: 570px;
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+	.intro{
+		min-height: 870px;
+	}
+}
+
+/*solution*/
 .solution .main-heading {
     margin-top: 60px;
 }
@@ -83,4 +112,12 @@
 .solution .cell .images {
     height: 60px;
     padding-top: 5px;
+}
+
+.solution .provided .images {
+	height: 115px;
+}
+
+.solution .provided .multiplat .images {
+	padding-top: 20px;
 }
