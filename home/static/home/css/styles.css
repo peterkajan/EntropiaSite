@@ -94,6 +94,14 @@
 	}
 }
 
+
+/*references*/
+.references .h2 .contact-heading{
+    color: #000;    
+}
+
+
+
 /*solution*/
 .solution h3 {
     text-decoration: underline;
