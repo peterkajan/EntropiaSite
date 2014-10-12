@@ -1,3 +1,16 @@
+.desc {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+@media(min-width:767px) {
+    .desc {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+}
+
+
 /* custom styles*/   
 .bottom_zero {
     text-align:center;   
