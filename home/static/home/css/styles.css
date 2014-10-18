@@ -145,17 +145,32 @@
 }
 
 /*workflow*/
-.workflow .panel {
-    background-color: #000;
+.workflow {
+    text-align: left;
 }
 
-.workflow .panel-default>.panel-heading {
-    background-color: #fff;
-}
+.workflow h2 {
+    text-align: center;
+} 
 
-.workflow .panel-default>.panel-heading a{
-    color: #000;    
-}
+    .workflow .panel {
+        background-color: rgba(0,0,0,0.0);;
+    }
+    
+    .workflow .subpanel {
+        margin-left: 13px;
+    }
+    
+    .workflow .panel .panel-heading:hover {
+        background: rgba(255,255,255,.1);
+    }
+    
+    .workflow .panel.selected .panel-heading {
+        border-bottom: 1px #fff solid;
+        background-color: rgb(200, 77, 72);
+    }
+    
+    
 
 .workflow .pic {
     background: no-repeat url('../img/EntropiaScrum.png');
