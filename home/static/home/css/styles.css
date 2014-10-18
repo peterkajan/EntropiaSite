@@ -145,10 +145,22 @@
 }
 
 /*workflow*/
+.workflow .panel {
+    background-color: #000;
+}
+
+.workflow .panel-default>.panel-heading {
+    background-color: #fff;
+}
+
+.workflow .panel-default>.panel-heading a{
+    color: #000;    
+}
+
 .workflow .pic {
     background: no-repeat url('../img/EntropiaScrum.png');
     min-height: 950px;
-    min-width: 300px;
+    min-width: 200px;
 }
 
 .workflow .cell {

@@ -296,27 +296,8 @@
     <script src="{% static 'dist/js/bootstrap.min.js' %}"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="{% static 'dist/js/grayscale.js' %}"></script>
-    
-    <script>
-      function stepDescElem(stepElem) {
-        step = stepElem.attr('data-step');
-        return $('.' + step + '-desc');
-      }
-      
-      $( function(){
-        $('.workflow .cell[data-step]').on('click', function() {
-          
-          $('.workflow .cell[data-step]').each( function() {
-            $(this).removeClass('selected');
-          });
-          $(this).addClass('selected');
-          
-          $('.desc > div').each( function() {
-            $(this).addClass('hidden');
-          });
-          stepDescElem($(this)).removeClass('hidden');
-        })
-      });        
-    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/mootools/1.5.1/mootools-yui-compressed.js"></script>
+    <script src="{% static 'dist/js/mootools-more-1.5.1.js' %}"></script>
+    <script src="{% static 'home/js/main.js' %}"></script>
   </body>
 </html>
