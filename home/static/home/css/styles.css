@@ -10,6 +10,17 @@
     }
 }
 
+body.entropia {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+@media(min-width:767px) {
+    body.entropia  {
+        font-size: 20px;
+    }
+}
+
 
 /* custom styles*/   
 .bottom_zero {
@@ -98,6 +109,10 @@
 	}
 }
 
+.intro-text {
+    text-align: justify;
+}
+
 
 /*references*/
 .references .h2 .contact-heading{
@@ -140,9 +155,9 @@
     text-align: left;
 }
 
-.workflow h2 {
-    text-align: center;
-} 
+    .workflow h2 {
+        text-align: center;
+    }
 
     .workflow .panel {
         background-color: rgba(0,0,0,0.0);;
@@ -160,8 +175,6 @@
         border-bottom: 1px #fff solid;
         background-color: rgb(200, 77, 72);
     }
-    
-    
 
 .workflow .pic {
     background: no-repeat url('../img/EntropiaScrum.png');
