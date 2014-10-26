@@ -1,23 +1,40 @@
+.intro, .contact {
+    background-color: rgba(136, 50, 66, 1);
+}
+
+.workflow {
+    background-color: rgba(57, 86, 115, 1);
+}
+
+.navbar {
+    border-bottom: 2px solid #FFFFFF;
+    background-color: rgba(136, 50, 66, 1);
+}
+
+/*.navbar.top-nav-collapse {
+    
+}*/
+
 .desc {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.4;
 }
 
 @media(min-width:767px) {
     .desc {
-        font-size: 20px;
+        font-size: 14px;
         line-height: 1.4;
     }
 }
 
 body.entropia {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.4;
 }
 
 @media(min-width:767px) {
     body.entropia  {
-        font-size: 20px;
+        font-size: 14px;
     }
 }
 
